@@ -10,7 +10,9 @@ module.exports = {
       'primary': '#F72D57',
       'yellow': '#F2BC57',
       'black': '#1E1E1E',
-      'white':'#FFFFFF'
+      'white':'#FFFFFF',
+      'grey':'#F5F5F5'
+
     },
     fontFamily: {
       'praise': ['Praise', 'cursive'],

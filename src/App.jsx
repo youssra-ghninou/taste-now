@@ -15,7 +15,7 @@ function App() {
            </div>
            <div className="div bg-grey flex flex-col gap-20">
              <div className="categories flex flex-col  gap-3 font-poppins text-center items-center  bg-grey">
-              <div className="title text-[28px] font-bold">
+              <div className="title text-[28px] font-bold mt-10">
                 Our popular <span className="text-primary">Categories</span>
               </div>
               <HoverButton text="Pizzas"/>

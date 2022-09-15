@@ -33,12 +33,12 @@ const Menu = () => {
     ];
     return (
         <>
-            <div className="flex flex-col gap-6 items-center font-poppins " id='Menu'>
+            <div className="flex flex-col lg:flex-row  gap-6 items-center  font-poppins " id='Menu'>
                 {Menu.map(({ id, title, origin, image, price}) => {
                     return (
-                        <div key={id} className="rounded-[5px] py-10 gap-2 w-[300px] items-center  bg-white flex flex-col text-center  ">
+                        <div key={id} className="rounded-[5px] py-10 h-[320px]  gap-2  items-center  bg-white flex flex-col text-center  ">
                             <div className="">
-                                <img className="rounded-[10px]" src={image} alt={title} />
+                                <img className="rounded-[10px] w-[220px] h-[120px] " src={image} alt={title} />
                             </div>
                                 <div className="flex items-center text-[16px] font-medium ">
                                     {title}

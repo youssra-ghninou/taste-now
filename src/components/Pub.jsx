@@ -2,7 +2,7 @@ import burger from '/images/burger.png'
 
 const Pub = () => {
     return ( 
-        <div className="className bg-primary flex flex-col px-10 items-center gap-10 justify-center lg:flex-row  font-poppins text-center lg:text-left">
+        <div className="className bg-primary flex flex-col px-10 py-10 items-center gap-10 justify-center lg:flex-row  font-poppins text-center lg:text-left">
         <div className="img w-fit ">
             <img src={burger} alt="header" className=""/>
         </div>

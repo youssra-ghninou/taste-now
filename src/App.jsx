@@ -1,4 +1,5 @@
 import Features from "./components/Features";
+import Footer from "./components/footer";
 import Header from "./components/Header";
 import HoverButton from "./components/Hoverbutton";
 import Menu from "./components/Menu";
@@ -23,6 +24,7 @@ function App() {
              </div>
              <Pub/>
              <Features/>
+             <Footer/>
            </div>
 
       </div>

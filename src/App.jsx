@@ -1,5 +1,5 @@
 import Features from "./components/Features";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HoverButton from "./components/Hoverbutton";
 import Menu from "./components/Menu";

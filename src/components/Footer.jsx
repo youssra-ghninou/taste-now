@@ -1,9 +1,9 @@
 const Footer = () => {
     return (  
-        <div className="container bg-primary flex flex-col  lg:flex-row  items-center justify-between px-10">
+        <div className="container bg-primary flex flex-col  lg:flex-row py-6  items-center justify-between px-10">
             <div className="logo text-white font-praise lg:text-[36px] text-[28px] w-[150px]  font-bold">Taste now</div>
-            <div className="text flex flex-col lg:flex-row text-[16px] gap-20">
-                <div className="flex flex-col font-poppins text-left gap-2">
+            <div className="text flex flex-col lg:flex-row text-[16px] gap-10">
+                <div className="flex flex-col font-poppins  lg:text-left gap-2">
                     <div className="pri text-white font-light">Privacy policy</div>
                     <div className="pri text-white font-light">Terms of service</div>
                 </div>

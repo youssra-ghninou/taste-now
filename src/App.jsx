@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import HoverButton from "./components/Hoverbutton";
 import Menu from "./components/Menu";
 import Navbar from "./components/Navbar"
-import Pub from "./components/pub";
+import Pub from "./components/Pub";
 
 
 function App() { 

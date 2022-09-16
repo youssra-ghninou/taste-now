@@ -5,17 +5,15 @@ import HoverButton from "./components/Hoverbutton";
 import Menu from "./components/Menu";
 import Navbar from "./components/Navbar"
 import Pub from "./components/Pub";
-import { Route, Routes, useLocation  } from "react-router-dom"
 
 
 function App() { 
-  const location = useLocation();
   return (
     <>
       <div className="flex flex-col gap-20">
            <div className="haut flex flex-col gap-20">
              <Navbar/>
-             <Header/>
+             <Header title="Exeprience food" span="Delivery" afterspan="Like no other" pg="We deliver the food of your choice wherever, whenever. Select your food from only the top restaurants in the area, and get it in a flash. Download the app now to discover more." sourcelink="/images/Splashfood.png"/>
            </div>
            <div className="div bg-grey flex flex-col gap-20">
              <div className="categories flex flex-col  gap-3 font-poppins text-center items-center  bg-grey">
@@ -25,14 +23,11 @@ function App() {
               <HoverButton text="Pizzas"/>
               <Menu/>
              </div>
-             <Pub/>
+             <Pub source="/images/burger.png" title="Don’t miss out on your favourite food" pg="Sign up now to enjoy your favourite food anywhere, anytime. It is quick, easy and accessible to anyone of any age. Free of charge, taste now is the solution to your every day foods."/>
              <Features/>
              <Footer/>
            </div>
       </div>
-      <Routes location={location} key={location.pathname}>
-         <Route  path="/" element={<App />} />
-      </Routes>
     </>
 
 );

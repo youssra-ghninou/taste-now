@@ -5,6 +5,7 @@ import {
 } from '@szhsin/react-menu';
 import '@szhsin/react-menu/dist/index.css';
 import '@szhsin/react-menu/dist/transitions/slide.css';
+import { Link } from 'react-router-dom';
 import CommunButton from './button';
 
 export default function Example() {
@@ -16,10 +17,7 @@ export default function Example() {
                     <MenuItem >
                     <div className="home text-[16px] font-poppins text-black font-normal hover:text-primary ">Home</div>
                     </MenuItem>
-                    <MenuItem>
-                       <div className="home text-[16px] font-poppins text-black font-normal hover:text-primary ">About Us </div>
-                    </MenuItem>
-                    <MenuItem>
+                    <Link to="/about" className="home text-[16px] font-poppins text-black font-normal hover:text-primary ">About Us{' '}</Link>                    <MenuItem>
                        <div className="home text-[16px] font-poppins text-black font-normal hover:text-primary ">Blog </div>
                     </MenuItem>
                     <MenuItem>

@@ -2,8 +2,8 @@
 const Pub = (props) => {
     return ( 
         <div className="className bg-primary flex flex-col px-10 py-10 items-center gap-10 justify-center lg:flex-row  font-poppins text-center lg:text-left">
-        <div className="img w-fit ">
-            <img src={props.source} alt="header" className=""/>
+        <div className="img  ">
+            <img src={props.source} alt="header" className="w-[950px] h-[290px]"/>
         </div>
         <div className="text  ">
             <div className="title text-[28px] text-white font-bold">

@@ -5,10 +5,13 @@ import HoverButton from "./components/Hoverbutton";
 import Menu from "./components/Menu";
 import Navbar from "./components/Navbar"
 import Pub from "./components/Pub";
+import { Route, Routes, useLocation  } from "react-router-dom"
 
 
 function App() { 
+  const location = useLocation();
   return (
+    <>
       <div className="flex flex-col gap-20">
            <div className="haut flex flex-col gap-20">
              <Navbar/>
@@ -26,8 +29,11 @@ function App() {
              <Features/>
              <Footer/>
            </div>
-
       </div>
+      <Routes location={location} key={location.pathname}>
+         <Route  path="/" element={<App />} />
+      </Routes>
+    </>
 
 );
 }

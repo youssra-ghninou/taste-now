@@ -33,13 +33,13 @@ const Blogs = () => {
     ];
     return ( 
         <>
-        <div className="flex flex-col gap-10  mx-5" >
+        <div className="flex flex-col gap-10  mx-5 mb-14" >
             {Blogs.map(({ id, title, content, image, span}) => {
                 return (
-                    <div key={id} className="flex flex-col gap-4 shadow-lg lg:gap-24 lg:flex-row items-center px-2 font-poppins  lg:text-left ">
+                    <div key={id} className="flex flex-col gap-4 rounded-xl  shadow-lg lg:gap-24 lg:flex-row items-center px-2  bg-white font-poppins  lg:text-left ">
                         <div className=" flex flex-col gap-6">
                             <div className="div flex flex-col lg:flex-row gap-5 lg:gap-20 px-3 items-center">
-                                <div className="div flex flex-col gap-5 lg:px-5">
+                                <div className="div flex flex-col gap-5 lg:px-5 py-5">
                                     <div className="text text-[28px] font-bold flex gap-1 ">
                                         <div className="">
                                             {title}
@@ -51,12 +51,12 @@ const Blogs = () => {
                                     <div className="text-[14px] font-light">
                                         {content}
                                     </div>
-                                    <div className="button lg:pb-5">
+                                    <div className="button ">
                                         <CommunButton text="Read blog"/>
                                     </div>
                                 </div>
                             
-                            <div className="pb-5 ">
+                            <div className="py-5 ">
                                 <img className="lg:w-[2020px] lg:h-[280px]" src={image} alt={title} />
                             </div>
                             </div>

@@ -21,10 +21,9 @@ const AboutUs = () => {
                    </div>
                    <Gettoknow/>
                </div>
-
-             <Pub source="/images/ouremployes.png" title="Our employees define who we are" pg="We are proud to have a team of professionals leading our every-day activities and tasks. Collaborative culture of inclusion, growth, and originality are only a few of our beliefs. Join us now, and take your career to the next step."/>
-             <div className="flex items-center justify-center"><Workwithus/></div>
-             <Footer/>
+               <Pub source="/images/ouremployes.png" title="Our employees define who we are" pg="We are proud to have a team of professionals leading our every-day activities and tasks. Collaborative culture of inclusion, growth, and originality are only a few of our beliefs. Join us now, and take your career to the next step."/>
+               <div className="flex items-center justify-center"><Workwithus/></div>
+               <Footer/>
            </div>
 
         </div>

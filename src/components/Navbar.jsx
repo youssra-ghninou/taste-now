@@ -24,7 +24,7 @@ export default function Example() {
                     <Link to="/blog"><div className="home text-[16px] font-poppins text-black font-normal hover:text-primary ">Blog</div></Link>
                     </MenuItem>
                     <MenuItem >
-                    <Link to="contactus"><div className="home text-[16px] font-poppins text-black font-normal hover:text-primary ">Contact Us</div></Link>
+                    <Link to="/contactus"><div className="home text-[16px] font-poppins text-black font-normal hover:text-primary ">Contact Us</div></Link>
                     </MenuItem>
                     <MenuItem >
                     <div className="home "><i className="fa-solid fa-cart-shopping text-[20px]  text-black  hover:text-primary "></i></div>
@@ -41,7 +41,7 @@ export default function Example() {
             <Link to="/"><a href="" className="home text-[20px] text-poppins text-black font-light hover:text-primary"> Home</a></Link>
             <Link to="/about"><a href="" className="home text-[20px] text-poppins text-black font-light hover:text-primary"> About Us</a></Link>
             <Link to="/blog"><a href="" className="home text-[20px] text-poppins text-black font-light hover:text-primary"> Blog</a></Link>
-            <Link to="contactus"><a href="" className="home text-[20px] text-poppins text-black font-light hover:text-primary"> Contact Us </a></Link>
+            <Link to="/contactus"><a href="" className="home text-[20px] text-poppins text-black font-light hover:text-primary"> Contact Us </a></Link>
                 <div className="home "><i className="fa-solid fa-cart-shopping text-[20px]  text-black  hover:text-primary "></i></div>
                 <div className="button">
                         <CommunButton text="Sign up"/>

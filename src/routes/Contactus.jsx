@@ -12,9 +12,9 @@ const Contactus = () => {
              <Navbar/>
              <Header title="How we can" span="help" pg="We deliver the food of your choice wherever, whenever. Select your food from only the top restaurants in the area, and get it in a flash. Download the app now to discover more." sourcelink="/images/bgcontact.png"/>
            </div>
-           <div className="flex flex-col bg-white gap-20">
-              <div className="flex items-center justify-center"><Workwithus/></div>
+           <div className="flex flex-col bg-grey gap-20">
               <Contactform/>
+              <div className="flex items-center justify-center"><Workwithus/></div>
               <Footer/>
            </div>
 

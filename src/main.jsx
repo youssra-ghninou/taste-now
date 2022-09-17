@@ -5,7 +5,7 @@ import './index.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import AboutUs from './routes/AboutUs'
 import Blog from './routes/Blog'
-import Contactus from './routes/contactus'
+import Contactus from './routes/Contactus'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 <React.StrictMode>

@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import Workwithus from "../components/Workwithus";
 import Footer from "../components/Footer";
+import Contactform from "../components/Contactform";
 
 
 const Contactus = () => {
@@ -13,6 +14,7 @@ const Contactus = () => {
            </div>
            <div className="flex flex-col bg-white gap-20">
               <div className="flex items-center justify-center"><Workwithus/></div>
+              <Contactform/>
               <Footer/>
            </div>
 

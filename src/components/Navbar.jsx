@@ -17,14 +17,17 @@ export default function Example() {
                     <MenuItem >
                     <Link to="/"><div className="home text-[16px] font-poppins text-black font-normal hover:text-primary ">Home</div></Link>
                     </MenuItem>
-                    <Link to="/about" className="home text-[16px] font-poppins text-black font-normal hover:text-primary ">About Us{' '}</Link>                    <MenuItem>
-                       <div className="home text-[16px] font-poppins text-black font-normal hover:text-primary ">Blog </div>
+                    <MenuItem >
+                    <Link to="about"><div className="home text-[16px] font-poppins text-black font-normal hover:text-primary ">About Us</div></Link>
                     </MenuItem>
-                    <MenuItem>
-                       <div className="home text-[16px] font-poppins text-black font-normal hover:text-primary ">Contact Us </div>
+                    <MenuItem >
+                    <Link to="blog"><div className="home text-[16px] font-poppins text-black font-normal hover:text-primary ">Blog</div></Link>
                     </MenuItem>
-                    <MenuItem>
-                       <div className="home "><i className="fa-solid fa-cart-shopping text-[20px]  text-black  hover:text-primary "></i></div>
+                    <MenuItem >
+                    <Link to="contactus"><div className="home text-[16px] font-poppins text-black font-normal hover:text-primary ">Contact Us</div></Link>
+                    </MenuItem>
+                    <MenuItem >
+                    <div className="home "><i className="fa-solid fa-cart-shopping text-[20px]  text-black  hover:text-primary "></i></div>
                     </MenuItem>
                     <MenuItem>
                     <div className="button">
@@ -37,8 +40,8 @@ export default function Example() {
             <div className="desktop hidden lg:flex lg:gap-9 lg:mt-3 lg:mr-3 lg:text-abel lg:text-dviolet dark:text-grey lg:text-[16px] lg:items-center ">
             <Link to="/"><a href="" className="home text-[20px] text-poppins text-black font-light hover:text-primary"> Home</a></Link>
             <Link to="/about"><a href="" className="home text-[20px] text-poppins text-black font-light hover:text-primary"> About Us</a></Link>
-                <a href="" className="home text-[20px] text-poppins text-black font-light hover:text-primary"> Blog</a>
-                <a href="" className="home text-[20px] text-poppins text-black font-light hover:text-primary"> Contact Us </a>
+            <Link to="blog"><a href="" className="home text-[20px] text-poppins text-black font-light hover:text-primary"> Blog</a></Link>
+            <Link to="contactus"><a href="" className="home text-[20px] text-poppins text-black font-light hover:text-primary"> Contact Us </a></Link>
                 <div className="home "><i className="fa-solid fa-cart-shopping text-[20px]  text-black  hover:text-primary "></i></div>
                 <div className="button">
                         <CommunButton text="Sign up"/>

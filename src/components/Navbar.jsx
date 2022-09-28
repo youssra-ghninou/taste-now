@@ -30,9 +30,11 @@ export default function Example() {
                     <div className="home "><i className="fa-solid fa-cart-shopping text-[20px]  text-black  hover:text-primary "></i></div>
                     </MenuItem>
                     <MenuItem>
-                    <div className="button">
-                        <CommunButton text="Sign up"/>
-                    </div>
+                    <Link to="/SignIn">
+                        <div className="button">
+                              <CommunButton text="Sign up"/>
+                        </div>
+                    </Link>
                     </MenuItem>
 
                 </Menu>
@@ -43,9 +45,10 @@ export default function Example() {
             <Link to="/blog"><a href="" className="home text-[20px] text-poppins text-black font-light hover:text-primary"> Blog</a></Link>
             <Link to="/contactus"><a href="" className="home text-[20px] text-poppins text-black font-light hover:text-primary"> Contact Us </a></Link>
                 <div className="home "><i className="fa-solid fa-cart-shopping text-[20px]  text-black  hover:text-primary "></i></div>
-                <div className="button">
-                        <CommunButton text="Sign up"/>
+            <div className="button">
+            <Link to="/SignIn"> <CommunButton text="Sign up"/></Link>
                 </div>
+            
 
             </div>
 
